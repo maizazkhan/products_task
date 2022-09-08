@@ -5,5 +5,6 @@ json.array! @products do |product|
   json.price product.price
   json.discount product.discount
   json.tag product.tag
-  json.product product.created_at
+  json.created_at product.created_at
+  json.category product.category
 end
